@@ -1,0 +1,20 @@
+{
+  "name": "math-magician-microverse",
+  "version": "1.0.0",
+  "description": "Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations and read a random math-related quote.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrprotocoll/math-magician-microverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrprotocoll/math-magician-microverse/issues"
+  },
+  "homepage": "https://github.com/mrprotocoll/math-magician-microverse#readme"
+}

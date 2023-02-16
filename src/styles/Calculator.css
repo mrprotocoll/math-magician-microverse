@@ -29,12 +29,21 @@ button {
   padding: 25px 5px;
   border-radius: 0;
   border: 1px solid #948e9f;
+  cursor: pointer;
 }
 
 .operand {
   background-color: #e0e0e0;
 }
 
+.operand:hover {
+  background-color: #948e9f;
+}
+
 .operator {
   background-color: #f5913e;
+}
+
+.operator:hover {
+  background-color: #d4a94a;
 }

@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import '../styles/Calculator.css';
-import calculate from '../logic/calculate';
+import calculate from 'logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({

@@ -1,6 +1,12 @@
+.calculator-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .calculator {
-  max-width: 500px;
-  margin: 0 auto;
+  width: 50%;
 }
 
 .output {
@@ -46,4 +52,18 @@ button {
 
 .operator:hover {
   background-color: #d4a94a;
+}
+
+@media(max-width: 760px) {
+  .calculator-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .calculator {
+    width: 90%;
+  }
 }

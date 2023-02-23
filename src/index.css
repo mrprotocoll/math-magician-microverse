@@ -33,3 +33,17 @@ h6 {
   height: 100vh;
   padding: 0 20px;
 }
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.quote p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.9;
+  text-align: center;
+}
